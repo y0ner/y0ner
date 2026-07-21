@@ -1,25 +1,25 @@
-# ¡Hola! Soy Yoner Isaza 👋
+# ¡Hola! Soy Yoner Isaza
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=450&lines=Frontend+Developer;React+%26+CSS+Developer;Python+Enthusiast" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+%26+CSS+Developer;Python+Enthusiast" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/personal-counter/badge/?username=y0ner&color=39D353&style=flat-square&label=Vistas+del+perfil" alt="Contador de Visitas" />
+  <img src="https://komarev.com/ghpvc/?username=y0ner&color=39D353&style=flat-square&label=Vistas+del+perfil" alt="Contador de Visitas" />
 </p>
 
-### 💫 Sobre mí
-¡Hola! Soy **Yoner Isaza**, un apasionado **Desarrollador Frontend** enfocado en crear experiencias web interactivas, dinámicas y con un diseño impecable. Me encanta experimentar con CSS, dominar el ecosistema de React y explorar el poder de Python para automatización y lógica.
+### ✦ Sobre mí
+Soy **Yoner Isaza**, un apasionado **Desarrollador Frontend** enfocado en crear experiencias web interactivas, dinámicas y con un diseño impecable. Me encanta experimentar con CSS, dominar el ecosistema de React y explorar el poder de Python para automatización y lógica.
 
-- 🚀 Actualmente enfocado en mejorar mis habilidades en desarrollo frontend y arquitecturas web modernas.
-- 🐍 Aprendiendo y experimentando con lógica avanzada en Python.
-- 🎨 Amante de la UI/UX y de los pequeños detalles que hacen una gran diferencia en la experiencia del usuario.
+▸ Actualmente enfocado en mejorar mis habilidades en desarrollo frontend y arquitecturas web modernas.
+▸ Aprendiendo y experimentando con lógica avanzada en Python.
+▸ Apasionado por la UI/UX y por los pequeños detalles que marcan la diferencia en la experiencia del usuario.
 
 ---
 
-### 🛠️ Tecnologías y Herramientas (Haz clic para saber más)
+### ✦ Tecnologías y Herramientas (Haz clic para más información)
 
-#### **Frontend**
+#### ▸ Frontend
 <p align="left">
   <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -59,7 +59,7 @@
   </a>
 </p>
 
-#### **Backend & Scripting**
+#### ▸ Backend y Scripting
 <p align="left">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -93,7 +93,7 @@
   </a>
 </p>
 
-#### **Herramientas & DevOps**
+#### ▸ Herramientas y DevOps
 <p align="left">
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -120,28 +120,20 @@
 
 ---
 
-### 📊 Estadísticas e Indicadores
+### ✦ Estadísticas e Indicadores
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=y0ner&show_icons=true&theme=tokyonight&locale=es" alt="Estadísticas de y0ner" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&locale=es" alt="Lenguajes más usados de y0ner" />
+  <img height="185px" src="https://github-readme-stats.shion.dev/api?username=y0ner&show_icons=true&theme=tokyonight&locale=es" alt="Estadísticas de y0ner" />
+  <img height="185px" src="https://github-readme-stats.shion.dev/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&locale=es" alt="Lenguajes más usados de y0ner" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/y0ner/github-readme-streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=y0ner&theme=tokyonight&locale=es" alt="Racha de GitHub" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=y0ner&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="Trofeos de GitHub" />
-  </a>
+  <img height="185px" src="https://github-readme-streak-stats.herokuapp.com/?user=y0ner&theme=tokyonight&locale=es" alt="Racha de GitHub" />
 </p>
 
 ---
 
-### 🤝 Conéctate conmigo
+### ✦ Contacto
 
 <p align="left">
   <a href="https://github.com/y0ner" target="_blank">
