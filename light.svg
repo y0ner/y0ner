@@ -93,51 +93,63 @@
     </rect>
 
     <!-- ASCII Portrait Container -->
-    <g transform="translate(60, 160)" style="filter: url(#softGlow);">
+    <g transform="translate(60, 130)" style="filter: url(#softGlow);">
       <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="url(#asciiGrad)">
         <tspan x="0" dy="18" opacity="0">
-                  ~@~@~@~@~
+            }}}}}}{{{{{{{{{{
           <animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-                ~@ @ @ @ @ @~
+           {{  }}}{{}}{{  }
           <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-               ((  o   o  ))
+          {  {( o   o  )}  {
           <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-               ((    ^    ))
+          {  {(   ^   )}  {
           <animate attributeName="opacity" from="0" to="1" begin="0.30000000000000004s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-                \\   ___   /
+          }  {{ \_/ }}  {
           <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-                 \\_______/
+                \| |/
           <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-                 ___| |___
+                | | |
           <animate attributeName="opacity" from="0" to="1" begin="0.6000000000000001s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-                /   \\ /   \\
+              /| | | |\
           <animate attributeName="opacity" from="0" to="1" begin="0.7000000000000001s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-               /  |  V  |  \\
+             / | | | | \
           <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-              /   |     |   \\
+          [☕] | |   |    |
           <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.2s" fill="freeze" />
         </tspan>
         <tspan x="0" dy="18" opacity="0">
-             |    |     |    |
+            | |   |    |
           <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+            |_|___|____|
+          <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+             //      \\
+          <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+            //        \\
+          <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.2s" fill="freeze" />
         </tspan>
       </text>
     </g>

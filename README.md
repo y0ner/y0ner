@@ -46,7 +46,7 @@
      2. ABOUT SECTION
      ============================================================ -->
 
-<h2 align="center">⚡ About Me</h2>
+<h2 align="center">About Me</h2>
 
 <p align="center">
   <em>Systems Engineer building production-grade, full-stack software with a product-engineering mindset.</em>
@@ -54,20 +54,20 @@
 
 I am a **Systems Engineer** with hands-on experience across the full software lifecycle — from frontend interfaces and REST/GraphQL APIs to mobile and cloud infrastructure. I focus on writing **clean, maintainable, well-tested code** that actually ships.
 
-- 🔭 **Software Engineering** — solid foundation in computer science fundamentals, design patterns, data structures, and clean-code principles.
-- 🌐 **Full-Stack Development** — frontend with **React, TypeScript, and Next.js**; backend services with **Python and Node.js**; native mobile for **Android**.
-- 🧠 **AI / ML** — expanding into applied machine learning and intelligent product features.
-- 🛠️ **Product Mindset** — I think in terms of user value, iteration speed, observability, and reliability.
-- 📐 **Engineering Discipline** — Git workflows, code review, CI/CD, testing, and documentation are non-negotiable.
+- ▸ **Software Engineering** — solid foundation in computer science fundamentals, design patterns, data structures, and clean-code principles.
+- ▸ **Full-Stack Development** — frontend with **React, TypeScript, and Next.js**; backend services with **Python and Node.js**; native mobile for **Android**.
+- ▸ **AI / ML** — expanding into applied machine learning and intelligent product features.
+- ▸ **Product Mindset** — I think in terms of user value, iteration speed, observability, and reliability.
+- ▸ **Engineering Discipline** — Git workflows, code review, CI/CD, testing, and documentation are non-negotiable.
 
 <details align="center">
-  <summary><b>🤝 Open To</b></summary>
+  <summary><b>Open To</b></summary>
   <br/>
   <ul align="left">
-    <li>💼 Full-time <b>Software Engineer</b> roles — frontend, full-stack, mobile, or AI/ML</li>
-    <li>🌍 Remote and hybrid opportunities worldwide</li>
-    <li>🚀 Collaboration on open-source projects with real product impact</li>
-    <li>🧪 Research / freelance work involving AI/ML applied to real problems</li>
+    <li>Full-time <b>Software Engineer</b> roles — frontend, full-stack, mobile, or AI/ML</li>
+    <li>Remote and hybrid opportunities worldwide</li>
+    <li>Collaboration on open-source projects with real product impact</li>
+    <li>Research / freelance work involving AI/ML applied to real problems</li>
   </ul>
 </details>
 
@@ -77,7 +77,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      3. TECH STACK SECTION — Skill Icons
      ============================================================ -->
 
-<h2 align="center">🛠️ Tech Stack</h2>
+<h2 align="center">Tech Stack</h2>
 
 #### Languages
 <p align="center">
@@ -105,7 +105,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      4. AI / ML EXPERTISE SECTION
      ============================================================ -->
 
-<h2 align="center">🧠 AI / ML Expertise</h2>
+<h2 align="center">AI / ML Expertise</h2>
 
 <p align="center">
   <em>Honest placeholder — fill in with your real AI/ML domains, courses, or applied projects.</em>
@@ -124,7 +124,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      5. FEATURED PROJECTS SECTION — Collapsible cards
      ============================================================ -->
 
-<h2 align="center">🚀 Featured Projects</h2>
+<h2 align="center">Featured Projects</h2>
 
 <p align="center">
   <em>Honest placeholder — replace with 2–4 of your best projects. Each card is a collapsible block with the same metadata table.</em>
@@ -132,7 +132,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
 
 <!-- =========================== PROJECT 1 =========================== -->
 <details>
-  <summary><b>📦 Project One — TODO: project name</b></summary>
+  <summary><b>Project One — TODO: project name</b></summary>
   <br/>
 
   | | |
@@ -149,7 +149,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
 
 <!-- =========================== PROJECT 2 =========================== -->
 <details>
-  <summary><b>📦 Project Two — TODO: project name</b></summary>
+  <summary><b>Project Two — TODO: project name</b></summary>
   <br/>
 
   | | |
@@ -166,7 +166,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
 
 <!-- =========================== PROJECT 3 =========================== -->
 <details>
-  <summary><b>📦 Project Three — TODO: project name</b></summary>
+  <summary><b>Project Three — TODO: project name</b></summary>
   <br/>
 
   | | |
@@ -187,7 +187,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      6. EXPERIENCE SECTION
      ============================================================ -->
 
-<h2 align="center">💼 Experience</h2>
+<h2 align="center">Experience</h2>
 
 <p align="center">
   <em>Honest placeholder — add your real work history below.</em>
@@ -221,7 +221,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      7. ACHIEVEMENTS SECTION
      ============================================================ -->
 
-<h2 align="center">🏆 Achievements</h2>
+<h2 align="center">Achievements</h2>
 
 <p align="center">
   <em>Honest placeholder — list any recognitions, hackathons, open-source contributions, or notable milestones.</em>
@@ -239,7 +239,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      8. CERTIFICATIONS SECTION — grouped by provider
      ============================================================ -->
 
-<h2 align="center">📜 Certifications</h2>
+<h2 align="center">Certifications</h2>
 
 <p align="center">
   <em>Honest placeholder — add your real certifications below, grouped by provider.</em>
@@ -264,7 +264,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      9. CODING PROFILES SECTION
      ============================================================ -->
 
-<h2 align="center">🧩 Coding Profiles</h2>
+<h2 align="center">Coding Profiles</h2>
 
 <p align="center">
   <em>Honest placeholder — replace the <code>#</code> links below with your real profile URLs.</em>
@@ -283,12 +283,12 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      10. GITHUB ANALYTICS SECTION
      ============================================================ -->
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<h2 align="center">GitHub Analytics</h2>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=y0ner&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=A78BFA&text_color=e0e7ff" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-theta-jade.vercel.app/api?username=y0ner&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=A78BFA&text_color=e0e7ff" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8B5CF6&text_color=e0e7ff" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats-theta-jade.vercel.app/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8B5CF6&text_color=e0e7ff" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -301,10 +301,10 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      11. GITHUB TROPHIES SECTION
      ============================================================ -->
 
-<h2 align="center">🏅 GitHub Trophies</h2>
+<h2 align="center">GitHub Trophies</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=y0ner&theme=tokyonight&no-frame=true&column=4&margin-w=4&margin-h=4" alt="GitHub Trophies" />
+  <img src="https://profile-trophy.vercel.app/?username=y0ner&theme=tokyonight&no-frame=true&column=4&margin-w=4&margin-h=4" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -313,7 +313,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      12. CONTRIBUTION ACTIVITY SECTION
      ============================================================ -->
 
-<h2 align="center">📈 Contribution Activity</h2>
+<h2 align="center">Contribution Activity</h2>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=y0ner&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=8B5CF6&line=A78BFA&point=e0e7ff" alt="Contribution Activity Graph" />
@@ -325,7 +325,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      13. CONTRIBUTION SNAKE SECTION
      ============================================================ -->
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">Contribution Snake</h2>
 
 <p align="center">
   <picture>
@@ -343,7 +343,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
      14. CURRENT FOCUS SECTION — YAML
      ============================================================ -->
 
-<h2 align="center">🎯 Current Focus</h2>
+<h2 align="center">Current Focus</h2>
 
 <p align="center">
   <em>What I'm investing my time and energy into right now.</em>
@@ -377,7 +377,7 @@ open_to:
      15. CONNECT SECTION
      ============================================================ -->
 
-<h2 align="center" id="connect">📬 Connect</h2>
+<h2 align="center" id="connect">Connect</h2>
 
 <p align="center">
   <a href="mailto:yonerisaza0@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
@@ -386,7 +386,7 @@ open_to:
   <a href="#portfolio"><img src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
 </p>
 
-<p align="center"><sub>⚠️ Portfolio URL is a TODO — replace <code>#portfolio</code> with your real site when ready.</sub></p>
+<p align="center"><sub>Note: Portfolio URL is a TODO — replace <code>#portfolio</code> with your real site when ready.</sub></p>
 
 ---
 
