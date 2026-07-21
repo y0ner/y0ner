@@ -54,11 +54,11 @@
 
 I am a **Systems Engineer** with hands-on experience across the full software lifecycle — from frontend interfaces and REST/GraphQL APIs to mobile and cloud infrastructure. I focus on writing **clean, maintainable, well-tested code** that actually ships.
 
-- ▸ **Software Engineering** — solid foundation in computer science fundamentals, design patterns, data structures, and clean-code principles.
-- ▸ **Full-Stack Development** — frontend with **React, TypeScript, and Next.js**; backend services with **Python and Node.js**; native mobile for **Android**.
-- ▸ **AI / ML** — expanding into applied machine learning and intelligent product features.
-- ▸ **Product Mindset** — I think in terms of user value, iteration speed, observability, and reliability.
-- ▸ **Engineering Discipline** — Git workflows, code review, CI/CD, testing, and documentation are non-negotiable.
+-  **Software Engineering** — solid foundation in computer science fundamentals, design patterns, data structures, and clean-code principles.
+-  **Full-Stack Development** — frontend with **React, TypeScript, and Next.js**; backend services with **Python and Node.js**; native mobile for **Android**.
+-  **AI / ML** — expanding into applied machine learning and intelligent product features.
+-  **Product Mindset** — I think in terms of user value, iteration speed, observability, and reliability.
+-  **Engineering Discipline** — Git workflows, code review, CI/CD, testing, and documentation are non-negotiable.
 
 <details align="center">
   <summary><b>Open To</b></summary>
