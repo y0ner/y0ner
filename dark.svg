@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%" style="border-radius: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED; #22D3EE; #10B981; #7C3AED" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE; #10B981; #7C3AED; #22D3EE" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981; #7C3AED; #22D3EE; #10B981" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- ASCII Gradient -->
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE; #7C3AED; #22D3EE" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED; #22D3EE; #7C3AED" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1180" height="610" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Animated Floating Background Glows -->
+  <circle cx="100" cy="100" r="180" fill="#7C3AED" opacity="0.08" filter="url(#glow)">
+    <animate attributeName="cx" values="100; 250; 100" dur="15s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="100; 200; 100" dur="15s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1080" cy="500" r="220" fill="#22D3EE" opacity="0.06" filter="url(#glow)">
+    <animate attributeName="cx" values="1080; 900; 1080" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="500; 400; 500" dur="18s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Cyber Terminal Grid Pattern -->
+  <g opacity="0.15">
+    <path d="M0 30 L1180 30 M0 60 L1180 60 M0 90 L1180 90 M0 120 L1180 120 M0 150 L1180 150 M0 180 L1180 180 M0 210 L1180 210 M0 240 L1180 240 M0 270 L1180 270 M0 300 L1180 300 M0 330 L1180 330 M0 360 L1180 360 M0 390 L1180 390 M0 420 L1180 420 M0 450 L1180 450 M0 480 L1180 480 M0 510 L1180 510 M0 540 L1180 540 M0 570 L1180 570" stroke="rgba(255, 255, 255, 0.08)" stroke-width="0.5" />
+    <path d="M30 0 L30 610 M60 0 L60 610 M90 0 L90 610 M120 0 L120 610 M150 0 L150 610 M180 0 L180 610 M210 0 L210 610 M240 0 L240 610 M270 0 L270 610 M300 0 L300 610 M330 0 L330 610 M360 0 L360 610 M390 0 L390 610 M420 0 L420 610 M450 0 L450 610 M480 0 L480 610 M510 0 L510 610 M540 0 L540 610 M570 0 L570 610 M600 0 L600 610 M630 0 L630 610 M660 0 L660 610 M690 0 L690 610 M720 0 L720 610 M750 0 L750 610 M780 0 L780 610 M810 0 L810 610 M840 0 L840 610 M870 0 L870 610 M90 0 L900 610 M930 0 L930 610 M960 0 L960 610 M990 0 L990 610 M1020 0 L1020 610 M1050 0 L1050 610 M1080 0 L1080 610 M1110 0 L1110 610 M1140 0 L1140 610" stroke="rgba(255, 255, 255, 0.08)" stroke-width="0.5" />
+  </g>
+
+  <!-- Noise Texture overlay -->
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.80" numOctaves="3" filterUnits="coordinateSpace" />
+    <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.03 0" />
+  </filter>
+  <rect width="1180" height="610" filter="url(#noise)" pointer-events="none" rx="16" />
+
+  <!-- Scanning Sweep Line -->
+  <rect x="0" y="0" width="1180" height="2" fill="url(#accentGrad)" opacity="0.12">
+    <animate attributeName="y" values="0; 610; 0" dur="8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- LEFT SIDE: ASCII Portrait Panel (Glassmorphism) -->
+  <g transform="translate(0, 0)">
+    <!-- Subtle float animation for left panel -->
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="6s" repeatCount="indefinite" />
+    
+    <!-- Outer Shadow and Glass Panel -->
+    <rect x="40" y="40" width="340" height="530" rx="20" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" style="backdrop-filter: blur(12px);" />
+    <rect x="41" y="41" width="338" height="528" rx="19" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+
+    <!-- Scanning line effect specifically for portrait -->
+    <rect x="40" y="40" width="340" height="2" fill="#22D3EE" opacity="0.3">
+      <animate attributeName="y" values="40; 570; 40" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- ASCII Portrait Container -->
+    <g transform="translate(60, 160)" style="filter: url(#softGlow);">
+      <text font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="url(#asciiGrad)">
+        <tspan x="0" dy="18" opacity="0">
+                .-----------------.
+          <animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+               /  .-.   .-.        \\
+          <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+              |  /   \\ /   \\        |
+          <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+              |  | o | | o |        |
+          <animate attributeName="opacity" from="0" to="1" begin="0.30000000000000004s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+              |  \\   / \\   /        |
+          <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+               \\  `-'   `-'        /
+          <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+                `-----------------'
+          <animate attributeName="opacity" from="0" to="1" begin="0.6000000000000001s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+                     ___|||___
+          <animate attributeName="opacity" from="0" to="1" begin="0.7000000000000001s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+                    /    |    \\
+          <animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+                   /     |     \\
+          <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.2s" fill="freeze" />
+        </tspan>
+        <tspan x="0" dy="18" opacity="0">
+                  /      |      \\
+          <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.2s" fill="freeze" />
+        </tspan>
+      </text>
+    </g>
+
+    <!-- ASCII Cyber Terminal Status Bar -->
+    <text x="70" y="460" font-family="'Courier New', Courier, monospace" font-size="12" fill="#94A3B8">
+      <tspan x="70" dy="0" opacity="0">> HOST: y0ner.sys<animate attributeName="opacity" to="1" begin="1.2s" dur="0.1s" fill="freeze" /></tspan>
+      <tspan x="70" dy="16" opacity="0">> ACCESS: GRANTED<animate attributeName="opacity" to="1" begin="1.4s" dur="0.1s" fill="freeze" /></tspan>
+      <tspan x="70" dy="16" opacity="0">> ONLINE_PORT: 22<animate attributeName="opacity" to="1" begin="1.6s" dur="0.1s" fill="freeze" /></tspan>
+      <tspan x="70" dy="16" fill="#22D3EE" opacity="0">> STATUS: ACTIVE _<animate attributeName="opacity" to="1" begin="1.8s" dur="0.1s" fill="freeze" /></tspan>
+    </text>
+  </g>
+
+  <!-- RIGHT SIDE: Professional Terminal Window -->
+  <g>
+    <!-- Shadow and Terminal Body -->
+    <rect x="410" y="40" width="730" height="530" rx="20" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" style="backdrop-filter: blur(12px);" />
+    <rect x="411" y="41" width="728" height="528" rx="19" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+
+    <!-- Terminal Title Bar -->
+    <path d="M410 80 L1140 80" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    <!-- Window Controls -->
+    <circle cx="440" cy="60" r="6" fill="#FF5F56" />
+    <circle cx="460" cy="60" r="6" fill="#FFBD2E" />
+    <circle cx="480" cy="60" r="6" fill="#27C93F" />
+    <text x="510" y="64" font-family="'Courier New', Courier, monospace" font-size="12" fill="#94A3B8">bash - y0ner@systems</text>
+
+    <!-- Terminal Content Greeting -->
+    <g transform="translate(450, 120)">
+      <!-- Greeting Header -->
+      <text x="0" y="10" font-size="28" font-weight="bold" fill="#F8FAFC">
+        Hi, I'm Yoner Isaza
+        <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze" />
+      </text>
+
+      <!-- Animated Typing Role Selection -->
+      <g transform="translate(0, 42)">
+        <text font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="url(#accentGrad)">
+          <!-- Line 1: Systems Engineer -->
+          <tspan x="0" y="0" opacity="0">
+            &gt; Systems Engineer
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.35;0.4;1" dur="12s" repeatCount="indefinite" />
+          </tspan>
+          <!-- Line 2: Frontend & Backend Developer -->
+          <tspan x="0" y="0" opacity="0">
+            &gt; Full Stack Developer
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.35;0.4;0.7;0.75;1" dur="12s" repeatCount="indefinite" />
+          </tspan>
+          <!-- Line 3: Mobile Android Developer -->
+          <tspan x="0" y="0" opacity="0">
+            &gt; Mobile Android Developer
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.7;0.75;0.95;1" dur="12s" repeatCount="indefinite" />
+          </tspan>
+        </text>
+        <!-- Blinking cursor -->
+        <text x="310" y="0" font-family="'Courier New', Courier, monospace" font-size="20" fill="url(#accentGrad)">
+          _
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+          <!-- Move cursor position depending on text width -->
+          <animate attributeName="x" values="240; 270; 310; 240" keyTimes="0; 0.35; 0.7; 1" dur="12s" repeatCount="indefinite" />
+        </text>
+      </g>
+
+      <!-- Info Meta Details -->
+      <g transform="translate(0, 85)" font-family="'Courier New', Courier, monospace" font-size="14" fill="#94A3B8">
+        <text x="0" y="0" opacity="0">
+          <tspan fill="#22D3EE" font-weight="bold">▸ Location:</tspan> Guajira, Colombia
+          <animate attributeName="opacity" to="1" begin="0.8s" dur="0.3s" fill="freeze" />
+        </text>
+        <text x="0" y="22" opacity="0">
+          <tspan fill="#22D3EE" font-weight="bold">▸ Education:</tspan> Systems Engineering
+          <animate attributeName="opacity" to="1" begin="1.0s" dur="0.3s" fill="freeze" />
+        </text>
+        <text x="0" y="44" opacity="0">
+          <tspan fill="#22D3EE" font-weight="bold">▸ Experience:</tspan> 1 Year in Software Development
+          <animate attributeName="opacity" to="1" begin="1.2s" dur="0.3s" fill="freeze" />
+        </text>
+        <text x="0" y="66" opacity="0">
+          <tspan fill="#22D3EE" font-weight="bold">▸ Current Focus:</tspan> Frontend, Backend &amp; Mobile
+          <animate attributeName="opacity" to="1" begin="1.4s" dur="0.3s" fill="freeze" />
+        </text>
+      </g>
+
+      <!-- Skills Section Title -->
+      <text x="0" y="195" font-size="16" font-weight="bold" fill="#F8FAFC" opacity="0">
+        Skills Tecnológicas
+        <animate attributeName="opacity" to="1" begin="1.6s" dur="0.3s" fill="freeze" />
+      </text>
+
+      <!-- Skills Glowing Pills -->
+      <g transform="translate(0, 208)" opacity="0">
+        <animate attributeName="opacity" to="1" begin="1.8s" dur="0.4s" fill="freeze" />
+
+        <!-- Row 1 -->
+        <g transform="translate(0, 0)">
+          <!-- React -->
+          <g transform="translate(0, 0)">
+            <rect width="65" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="32" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">React</text>
+          </g>
+          <!-- Next.js -->
+          <g transform="translate(73, 0)">
+            <rect width="70" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="35" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Next.js</text>
+          </g>
+          <!-- Node.js -->
+          <g transform="translate(151, 0)">
+            <rect width="70" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="35" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Node.js</text>
+          </g>
+          <!-- TypeScript -->
+          <g transform="translate(229, 0)">
+            <rect width="90" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="45" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">TypeScript</text>
+          </g>
+          <!-- Python -->
+          <g transform="translate(327, 0)">
+            <rect width="70" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="35" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Python</text>
+          </g>
+          <!-- Android -->
+          <g transform="translate(405, 0)">
+            <rect width="70" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="35" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Android</text>
+          </g>
+        </g>
+
+        <!-- Row 2 -->
+        <g transform="translate(0, 32)">
+          <!-- Kotlin -->
+          <g transform="translate(0, 0)">
+            <rect width="65" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="32" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Kotlin</text>
+          </g>
+          <!-- Tailwind -->
+          <g transform="translate(73, 0)">
+            <rect width="80" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="40" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Tailwind</text>
+          </g>
+          <!-- Docker -->
+          <g transform="translate(161, 0)">
+            <rect width="70" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="35" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Docker</text>
+          </g>
+          <!-- Postgres -->
+          <g transform="translate(239, 0)">
+            <rect width="80" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="40" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Postgres</text>
+          </g>
+          <!-- AWS -->
+          <g transform="translate(327, 0)">
+            <rect width="55" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="27.5" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">AWS</text>
+          </g>
+          <!-- Git -->
+          <g transform="translate(390, 0)">
+            <rect width="55" height="24" rx="12" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+            <text x="27.5" y="16" font-size="11" font-weight="bold" fill="#F8FAFC" text-anchor="middle">Git</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Connect Section Title -->
+      <text x="0" y="295" font-size="16" font-weight="bold" fill="#F8FAFC" opacity="0">
+        Connect with me
+        <animate attributeName="opacity" to="1" begin="2.0s" dur="0.3s" fill="freeze" />
+      </text>
+
+      <!-- Social Links Buttons -->
+      <g transform="translate(0, 308)" opacity="0">
+        <animate attributeName="opacity" to="1" begin="2.2s" dur="0.4s" fill="freeze" />
+        
+        <!-- Email -->
+        <g transform="translate(0, 0)">
+          <rect width="210" height="30" rx="6" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+          <text x="15" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#94A3B8">EMAIL:</text>
+          <text x="60" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="url(#accentGrad)">YONERISAZA0@GMAIL.COM</text>
+        </g>
+        <!-- GitHub -->
+        <g transform="translate(220, 0)">
+          <rect width="130" height="30" rx="6" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+          <text x="15" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#94A3B8">GITHUB:</text>
+          <text x="70" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#F8FAFC">y0ner</text>
+        </g>
+        <!-- LinkedIn -->
+        <g transform="translate(360, 0)">
+          <rect width="140" height="30" rx="6" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+          <text x="15" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#94A3B8">LINKEDIN:</text>
+          <text x="85" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#22D3EE">y0ner</text>
+        </g>
+        <!-- Portfolio -->
+        <g transform="translate(510, 0)">
+          <rect width="135" height="30" rx="6" fill="rgba(15, 23, 42, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+          <text x="15" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#94A3B8">WEBSITE:</text>
+          <text x="75" y="19" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#10B981">y0ner.dev</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
