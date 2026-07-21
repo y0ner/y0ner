@@ -8,7 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=y0ner&color=39D353&style=flat-square&label=Vistas+del+perfil" alt="Contador de Visitas" />
 </p>
 
-### ✦ Sobre mí
+### Sobre mí
 Soy **Yoner Isaza**, **Ingeniero de Sistemas** especializado en desarrollo de software. Cuento con experiencia diseñando y construyendo soluciones digitales integrales, abarcando desde interfaces frontend interactivas y eficientes hasta arquitecturas backend robustas y aplicaciones móviles nativas para Android.
 
 Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas prácticas de desarrollo para entregar productos de software escalables y de alta calidad.
@@ -20,9 +20,9 @@ Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas
 
 ---
 
-### ✦ Skills Tecnológicas
+### Skills Tecnológicas
 
-#### ▸ Frontend
+#### Frontend
 <p align="left">
   <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -62,7 +62,7 @@ Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas
   </a>
 </p>
 
-#### ▸ Backend y Scripting
+#### Backend y Scripting
 <p align="left">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -96,7 +96,7 @@ Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas
   </a>
 </p>
 
-#### ▸ Mobile
+#### Mobile
 <p align="left">
   <a href="https://developer.android.com/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
@@ -106,7 +106,7 @@ Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas
   </a>
 </p>
 
-#### ▸ Herramientas y DevOps
+#### Herramientas y DevOps
 <p align="left">
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -133,7 +133,7 @@ Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas
 
 ---
 
-### ✦ Contacto
+### Contacto
 
 <p align="left">
   <a href="mailto:yonerisaza0@gmail.com">
