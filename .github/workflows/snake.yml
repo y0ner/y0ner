@@ -1,0 +1,30 @@
+name: Generate snake animation
+
+on:
+  schedule:
+    # Run daily at a non-:00 minute to avoid thundering herd.
+    - cron: "37 7 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: y0ner
+          github_user_email: yonerisaza0@gmail.com
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit generated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate snake animation"
+          file_pattern: "dist/*.svg"
