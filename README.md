@@ -4,16 +4,14 @@
      ============================================================ -->
 
 <!-- ============================================================
-     1. ANIMATED HEADER SECTION
+     1. HERO BANNER — auto-switches with GitHub's dark/light theme
      ============================================================ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:4F46E5&height=210&section=header&text=Yoner%20Isaza&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Systems%20Engineer%20%C2%B7%20Full%20Stack%20Developer%20%C2%B7%20AI%20%2F%20ML&descSize=18&descColor=e0e7ff&animation=fadeIn" alt="Capsule Render Header" width="100%"/>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&multiline=false&width=680&lines=Systems+Engineer;Full+Stack+Developer;AI+%2F+ML+Engineer;Mobile+%26+Cloud+Engineer;Clean+Code+%C2%B7+Design+Patterns" alt="Typing SVG" />
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
+  <img src="assets/dark.svg" alt="Yoner Isaza — Systems Engineer, Full Stack Developer, AI/ML" width="100%">
+</picture>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Systems_Engineer-7C3AED?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Academic Badge" />
@@ -42,13 +40,13 @@
   <em>Systems Engineer building production-grade, full-stack software with a product-engineering mindset.</em>
 </p>
 
-I am a **Systems Engineer** with hands-on experience across the full software lifecycle — from frontend interfaces and REST/GraphQL APIs to mobile and cloud infrastructure. I focus on writing **clean, maintainable, well-tested code** that actually ships.
+I'm a **Systems Engineer** with hands-on experience across the full software lifecycle — from frontend interfaces and REST/GraphQL APIs to mobile and cloud infrastructure. I focus on writing **clean, maintainable, well-tested code** that actually ships.
 
--  **Software Engineering** — solid foundation in computer science fundamentals, design patterns, data structures, and clean-code principles.
--  **Full-Stack Development** — frontend with **React, TypeScript, and Next.js**; backend services with **Python and Node.js**; native mobile for **Android**.
--  **AI / ML** — expanding into applied machine learning and intelligent product features.
--  **Product Mindset** — I think in terms of user value, iteration speed, observability, and reliability.
--  **Engineering Discipline** — Git workflows, code review, CI/CD, testing, and documentation are non-negotiable.
+- **Software Engineering** — solid foundation in computer science fundamentals, design patterns, data structures, and clean-code principles.
+- **Full-Stack Development** — frontend with **React, TypeScript, and Next.js**; backend services with **Python and Node.js**; native mobile for **Android**.
+- **AI / ML** — expanding into applied machine learning and intelligent product features.
+- **Product Mindset** — I think in terms of user value, iteration speed, observability, and reliability.
+- **Engineering Discipline** — Git workflows, code review, CI/CD, testing, and documentation are non-negotiable.
 
 <details align="center">
   <summary><b>Open To</b></summary>
@@ -92,7 +90,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
 ---
 
 <!-- ============================================================
-     9. CODING PROFILES SECTION
+     4. CODING PROFILES SECTION
      ============================================================ -->
 
 <h2 align="center">Coding Profiles</h2>
@@ -111,7 +109,7 @@ I am a **Systems Engineer** with hands-on experience across the full software li
 ---
 
 <!-- ============================================================
-     14. CURRENT FOCUS SECTION — YAML
+     5. CURRENT FOCUS SECTION — YAML
      ============================================================ -->
 
 <h2 align="center">Current Focus</h2>
@@ -145,7 +143,7 @@ open_to:
 ---
 
 <!-- ============================================================
-     15. CONNECT SECTION
+     6. CONNECT SECTION
      ============================================================ -->
 
 <h2 align="center" id="connect">Connect</h2>
@@ -162,7 +160,7 @@ open_to:
 ---
 
 <!-- ============================================================
-     16. FOOTER SECTION
+     7. FOOTER SECTION
      ============================================================ -->
 
 <p align="center">
