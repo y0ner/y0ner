@@ -1,7 +1,7 @@
 # ¡Hola! Soy Yoner Isaza
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+%26+CSS+Developer;Python+Enthusiast" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Ingeniero+de+Sistemas;Frontend+%26+Backend+Developer;Mobile+Android+Developer" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -9,15 +9,18 @@
 </p>
 
 ### ✦ Sobre mí
-Soy **Yoner Isaza**, un apasionado **Desarrollador Frontend** enfocado en crear experiencias web interactivas, dinámicas y con un diseño impecable. Me encanta experimentar con CSS, dominar el ecosistema de React y explorar el poder de Python para automatización y lógica.
+Soy **Yoner Isaza**, **Ingeniero de Sistemas** especializado en desarrollo de software. Cuento con experiencia diseñando y construyendo soluciones digitales integrales, abarcando desde interfaces frontend interactivas y eficientes hasta arquitecturas backend robustas y aplicaciones móviles nativas para Android.
 
-▸ Actualmente enfocado en mejorar mis habilidades en desarrollo frontend y arquitecturas web modernas.
-▸ Aprendiendo y experimentando con lógica avanzada en Python.
-▸ Apasionado por la UI/UX y por los pequeños detalles que marcan la diferencia en la experiencia del usuario.
+Mi enfoque combina rigidez en ingeniería, optimización de rendimiento y buenas prácticas de desarrollo para entregar productos de software escalables y de alta calidad.
+
+▸ **Frontend**: Creación de aplicaciones web responsivas, dinámicas y modulares utilizando React, TypeScript y Next.js.
+▸ **Backend**: Desarrollo de APIs seguras, estructuradas y eficientes con Python y Node.js.
+▸ **Mobile**: Diseño y desarrollo de aplicaciones móviles nativas para Android optimizadas en rendimiento y experiencia de usuario.
+▸ **Metodologías**: Enfoque de código limpio (Clean Code), patrones de diseño de software y control de versiones con Git.
 
 ---
 
-### ✦ Tecnologías y Herramientas (Haz clic para más información)
+### ✦ Skills Tecnológicas
 
 #### ▸ Frontend
 <p align="left">
@@ -93,6 +96,16 @@ Soy **Yoner Isaza**, un apasionado **Desarrollador Frontend** enfocado en crear 
   </a>
 </p>
 
+#### ▸ Mobile
+<p align="left">
+  <a href="https://developer.android.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  </a>
+  <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  </a>
+</p>
+
 #### ▸ Herramientas y DevOps
 <p align="left">
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
@@ -120,23 +133,16 @@ Soy **Yoner Isaza**, un apasionado **Desarrollador Frontend** enfocado en crear 
 
 ---
 
-### ✦ Estadísticas e Indicadores
-
-<p align="center">
-  <img height="185px" src="https://github-readme-stats.shion.dev/api?username=y0ner&show_icons=true&theme=tokyonight&locale=es" alt="Estadísticas de y0ner" />
-  <img height="185px" src="https://github-readme-stats.shion.dev/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&locale=es" alt="Lenguajes más usados de y0ner" />
-</p>
-
-<p align="center">
-  <img height="185px" src="https://github-readme-streak-stats.herokuapp.com/?user=y0ner&theme=tokyonight&locale=es" alt="Racha de GitHub" />
-</p>
-
----
-
 ### ✦ Contacto
 
 <p align="left">
+  <a href="mailto:yonerisaza0@gmail.com">
+    <img src="https://img.shields.io/badge/Email-yonerisaza0%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
   <a href="https://github.com/y0ner" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-y0ner-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://TU-PORTAFOLIO.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portafolio%20Web-Visitar-0078D4?style=flat-square&logo=google-chrome&logoColor=white" alt="Portafolio Web" />
   </a>
 </p>
