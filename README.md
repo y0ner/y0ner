@@ -8,6 +8,10 @@
   <img src="https://komarev.com/ghpvc/?username=y0ner&color=39D353&style=flat-square&label=Vistas+del+perfil" alt="Contador de Visitas" />
 </p>
 
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Ingeniero+de+Sistemas;Frontend+%26+Backend+Developer;Mobile+Android+Developer" alt="Typing SVG" /></a>
+</p>
+
 ### Sobre mí
 - Ingeniero de Sistemas con 1 año de experiencia en desarrollo de software.
 - Competente en desarrollo frontend utilizando React, TypeScript y Next.js.

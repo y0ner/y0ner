@@ -29,17 +29,17 @@ def generate_svg(mode):
         glass_effect = "backdrop-filter: blur(8px);"
 
     ascii_art = [
-        "      .-----------------.",
-        "     /  .-.   .-.        \\",
-        "    |  /   \\ /   \\        |",
-        "    |  | o | | o |        |",
-        "    |  \\   / \\   /        |",
-        "     \\  `-'   `-'        /",
-        "      `-----------------'",
-        "           ___|||___",
-        "          /    |    \\",
-        "         /     |     \\",
-        "        /      |      \\"
+        "        ~@~@~@~@~",
+        "      ~@ @ @ @ @ @~",
+        "     ((  o   o  ))",
+        "     ((    ^    ))",
+        "      \\   ___   /",
+        "       \\_______/",
+        "       ___| |___",
+        "      /   \\ /   \\",
+        "     /  |  V  |  \\",
+        "    /   |     |   \\",
+        "   |    |     |    |"
     ]
     
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%" style="border-radius: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
