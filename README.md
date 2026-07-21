@@ -90,7 +90,72 @@ I'm a **Systems Engineer** with hands-on experience across the full software lif
 ---
 
 <!-- ============================================================
-     4. CODING PROFILES SECTION
+     4. GITHUB TROPHIES SECTION
+     ============================================================ -->
+
+<h2 align="center">GitHub Trophies</h2>
+
+<p align="center">
+  <a href="https://profile-trophy.vercel.app/?username=y0ner&theme=radical&no-frame=true&column=4&margin-w=4&margin-h=4" target="_blank">
+    <img src="https://profile-trophy.vercel.app/?username=y0ner&theme=radical&no-frame=true&column=4&margin-w=4&margin-h=4" alt="GitHub Trophies" />
+  </a>
+</p>
+
+---
+
+<!-- ============================================================
+     5. GITHUB ANALYTICS — STATS + STREAK + TOP LANGUAGES
+     ============================================================ -->
+
+<h2 align="center">GitHub Analytics</h2>
+
+<p align="center">
+  <a href="https://github-readme-stats-theta-jade.vercel.app/api?username=y0ner&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" target="_blank">
+    <img src="https://github-readme-stats-theta-jade.vercel.app/api?username=y0ner&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180" />
+  </a>
+  <a href="https://github-readme-streak-stats.demolab.com/?user=y0ner&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" target="_blank">
+    <img src="https://github-readme-streak-stats.demolab.com/?user=y0ner&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" height="180" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github-readme-stats-theta-jade.vercel.app/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&exclude_repo=github-readme-stats" target="_blank">
+    <img src="https://github-readme-stats-theta-jade.vercel.app/api/top-langs/?username=y0ner&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&exclude_repo=github-readme-stats" alt="Top Languages" />
+  </a>
+</p>
+
+---
+
+<!-- ============================================================
+     6. ACTIVITY GRAPH SECTION
+     ============================================================ -->
+
+<h2 align="center">Activity Graph</h2>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=y0ner&theme=react-dark&hide_border=true&area=true&area_color=8B5CF6&color=A78BFA&line=7C3AED&point=8B5CF6&custom_title=Contribution%20Activity" alt="Activity Graph" width="100%"/>
+</p>
+
+---
+
+<!-- ============================================================
+     7. CONTRIBUTION SNAKE SECTION
+     ============================================================ -->
+
+<h2 align="center">Contribution Snake</h2>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/y0ner/y0ner/main/dist/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/y0ner/y0ner/main/dist/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/y0ner/y0ner/main/dist/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+---
+
+<!-- ============================================================
+     8. CODING PROFILES SECTION
      ============================================================ -->
 
 <h2 align="center">Coding Profiles</h2>

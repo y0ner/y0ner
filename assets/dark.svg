@@ -171,11 +171,11 @@
 
       <!-- rotating roles -->
       <g font-family="'Courier New', monospace" font-size="18" fill="#22D3EE">
-        <text x="480" y="196">&gt;<tspan dx="8" fill="#F8FAFC">Frontend Engineer<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.2" dur="12.5s" begin="2s" repeatCount="indefinite" fill="freeze"/></tspan></text>
-        <text x="480" y="196" fill="#F8FAFC"><tspan dx="20">Full Stack Developer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2;0.22;0.38;0.4" dur="12.5s" begin="2s" repeatCount="indefinite"/></tspan></text>
-        <text x="480" y="196" fill="#F8FAFC"><tspan dx="20">Open Source Contributor<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.42;0.58;0.6" dur="12.5s" begin="2s" repeatCount="indefinite"/></tspan></text>
-        <text x="480" y="196" fill="#F8FAFC"><tspan dx="20">UI Engineer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.62;0.78;0.8" dur="12.5s" begin="2s" repeatCount="indefinite"/></tspan></text>
-        <text x="480" y="196" fill="#F8FAFC"><tspan dx="20">AI Enthusiast<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.8;0.82;0.98;1" dur="12.5s" begin="2s" repeatCount="indefinite"/></tspan></text>
+        <text x="480" y="196" opacity="0">&gt;<tspan dx="8" fill="#F8FAFC">Frontend Engineer<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.18;0.2" dur="12.5s" begin="0s" repeatCount="indefinite" fill="freeze"/></tspan></text>
+        <text x="480" y="196" fill="#F8FAFC" opacity="0"><tspan dx="20">Full Stack Developer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2;0.22;0.38;0.4" dur="12.5s" begin="0s" repeatCount="indefinite"/></tspan></text>
+        <text x="480" y="196" fill="#F8FAFC" opacity="0"><tspan dx="20">Open Source Contributor<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.42;0.58;0.6" dur="12.5s" begin="0s" repeatCount="indefinite"/></tspan></text>
+        <text x="480" y="196" fill="#F8FAFC" opacity="0"><tspan dx="20">UI Engineer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.62;0.78;0.8" dur="12.5s" begin="0s" repeatCount="indefinite"/></tspan></text>
+        <text x="480" y="196" fill="#F8FAFC" opacity="0"><tspan dx="20">AI Enthusiast<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.8;0.82;0.98;1" dur="12.5s" begin="0s" repeatCount="indefinite"/></tspan></text>
         <rect x="474" y="184" width="8" height="16" fill="#22D3EE">
           <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
         </rect>
@@ -216,65 +216,55 @@
         <animate attributeName="opacity" begin="3.1s" dur="0.5s" to="1" fill="freeze"/>
       </text>
 
-      <!-- skill pills -->
-      <g font-size="13" fill="#F8FAFC" text-anchor="middle" font-family="'Segoe UI', sans-serif">
+      <!-- skill icons (2 rows × 5 cols, 48x48 each) -->
+      <g>
         <!-- row 1 -->
         <g opacity="0">
           <animate attributeName="opacity" begin="3.3s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="480" y="382" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="527" y="403">React</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/react.svg" x="480" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.4s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="584" y="382" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="631" y="403">Next.js</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/nextjs.svg" x="540" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.5s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="688" y="382" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="735" y="403">Node.js</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/nodejs.svg" x="600" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.6s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="792" y="382" width="104" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="844" y="403">TypeScript</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/ts.svg" x="660" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.7s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="906" y="382" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="953" y="403">Tailwind</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/tailwind.svg" x="720" y="380" width="48" height="48"/>
         </g>
 
         <!-- row 2 -->
         <g opacity="0">
           <animate attributeName="opacity" begin="3.8s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="480" y="424" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="527" y="445">Python</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/python.svg" x="480" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.9s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="584" y="424" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="631" y="445">Docker</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/docker.svg" x="540" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="4.0s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="688" y="424" width="94" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="735" y="445">Postgres</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/postgres.svg" x="600" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="4.1s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="792" y="424" width="80" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="832" y="445">AWS</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/aws.svg" x="660" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="4.2s" dur="0.4s" to="1" fill="freeze"/>
-          <rect x="882" y="424" width="80" height="32" rx="16" fill="#0F172A" stroke="url(#pillBorder)" stroke-width="1.2" filter="url(#pulseGlow)"/>
-          <text x="922" y="445">Git</text>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/git.svg" x="720" y="440" width="48" height="48"/>
         </g>
       </g>
 
       <!-- social icons -->
-      <g opacity="0">
+      <g opacity="0" transform="translate(0, 22)">
         <animate attributeName="opacity" begin="4.5s" dur="0.6s" to="1" fill="freeze"/>
         <text x="480" y="490" font-size="12" letter-spacing="2" fill="#94A3B8">CONNECT</text>
 
