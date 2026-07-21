@@ -106,7 +106,7 @@
 
 ---
 
-### ✦ Contacto
+### Contacto
 
 <p align="left">
   <a href="mailto:yonerisaza0@gmail.com">
