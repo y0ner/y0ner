@@ -221,45 +221,45 @@
         <!-- row 1 -->
         <g opacity="0">
           <animate attributeName="opacity" begin="3.3s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/react.svg" x="480" y="380" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/react.svg" x="480" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.4s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/nextjs.svg" x="540" y="380" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/nextjs.svg" x="540" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.5s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/nodejs.svg" x="600" y="380" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/nodejs.svg" x="600" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.6s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/ts.svg" x="660" y="380" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/ts.svg" x="660" y="380" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.7s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/tailwind.svg" x="720" y="380" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/tailwind.svg" x="720" y="380" width="48" height="48"/>
         </g>
 
         <!-- row 2 -->
         <g opacity="0">
           <animate attributeName="opacity" begin="3.8s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/python.svg" x="480" y="440" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/python.svg" x="480" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="3.9s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/docker.svg" x="540" y="440" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/docker.svg" x="540" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="4.0s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/postgres.svg" x="600" y="440" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/postgres.svg" x="600" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="4.1s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/aws.svg" x="660" y="440" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/aws.svg" x="660" y="440" width="48" height="48"/>
         </g>
         <g opacity="0">
           <animate attributeName="opacity" begin="4.2s" dur="0.4s" to="1" fill="freeze"/>
-          <image href="icons/git.svg" x="720" y="440" width="48" height="48"/>
+          <image href="https://raw.githubusercontent.com/y0ner/y0ner/main/assets/icons/git.svg" x="720" y="440" width="48" height="48"/>
         </g>
       </g>
 
