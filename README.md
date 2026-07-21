@@ -1,4 +1,4 @@
-# ¡Hola! Soy Yoner Isaza
+# ¡Hey! Soy Yoner Isaza
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Ingeniero+de+Sistemas;Frontend+%26+Backend+Developer;Mobile+Android+Developer" alt="Typing SVG" /></a>
